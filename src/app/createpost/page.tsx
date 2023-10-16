@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
 
+
 export default function CreatePost() {
   const [title, setTitle] = useState('');
   const [content, setContent] = useState('');
